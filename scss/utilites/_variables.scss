@@ -1,0 +1,53 @@
+// -- Color Palette -- //
+$white: #fff;
+$color-malibu: #51ddfc;
+$color-sunglo: #e4757a;
+$color-purple-mountain: #927bc1;
+$color-emerald: #63cc82;
+$color-coral: #fd7856;
+$color-french-lilac: #deb2ee;
+$color-anakiwa: #7ee6fd;
+$color-vista-blue: #88d9a0;
+$color-fountain-blue: #4da2bb;
+$color-sea-pink: #ec9fa3;
+$color-vivid-tangerine: #fd9f85;
+$color-riptide: #80e8d1;
+$color-viking: #58e1c1;
+$color-boulder: #777;
+$color-silver: #ccc;
+
+// -- Functional Color Palette -- //
+$base-font: $color-boulder;
+$headline-primary: $color-viking;
+$headline-secondary: $color-boulder;
+
+$link: $color-malibu;
+$hover-color: $white;
+$hover-bg: $color-viking;
+
+$blockquote: $color-viking;
+$border-bottom: $color-viking;
+$img-border: $color-silver;
+
+$button-text: $white;
+$button-default: $color-malibu;
+$button-error: $color-sunglo;
+$button-info: $color-purple-mountain;
+$button-success: $color-emerald;
+$button-warning: $color-coral;
+
+$grid-col-1: $color-purple-mountain;
+$grid-col-2: $color-coral;
+$grid-col-3: $color-french-lilac;
+$grid-col-4: $color-anakiwa;
+$grid-col-5: $color-vista-blue;
+$grid-col-6: $color-fountain-blue;
+$grid-col-7: $color-sea-pink;
+$grid-col-8: $color-vivid-tangerine;
+$grid-col-9: $color-sunglo;
+$grid-col-10: $color-emerald;
+$grid-col-11: $color-malibu;
+$grid-col-12: $color-riptide;
+
+// -- Media Queries Breakpoints -- //
+$screen-large: '(min-width: 768px)';
