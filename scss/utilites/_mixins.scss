@@ -1,0 +1,17 @@
+@mixin centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin transition {
+  transition-property: background-color;
+  transition-duration: .5s;
+  transition-timing-function: ease-in;
+}
+
+@mixin mq-large {
+  @media (min-width: $screen-large) {
+    @content;
+  }
+}

@@ -2,12 +2,19 @@
 
 .container {
   padding: 0 10px;
+  @include mq-large {
+    max-width: 1400px;
+    @include centered;
+  }
 }
 
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
+  @include mq-large {
+    flex-direction: row;
+  }
 }
 
 [class^=col] {
@@ -16,6 +23,12 @@
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
+  @include mq-large {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
 }
 
 .theme.col-1 {

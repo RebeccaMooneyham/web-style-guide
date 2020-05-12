@@ -8,24 +8,47 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  @include mq-large {
+    padding: 10px 30px;
+  }
 }
 
 .default {
   background-color: $button-default;
+  @include transition;
+    &:hover {
+      background-color: lighten($button-default, 15%);
+    }
 }
 
 .error {
   background-color: $button-error;
+  @include transition;
+    &:hover {
+      background-color: lighten($button-error, 15%);
+    }
 }
 
 .info {
   background-color: $button-info;
+  @include transition;
+    &:hover {
+      background-color: lighten($button-info, 15%);
+    }
 }
 
 .success {
   background-color: $button-success;
+  @include transition;
+    &:hover {
+      background-color: lighten($button-success, 15%);
+    }
 }
 
 .warning {
   background-color: $button-warning;
+  @include transition;
+    &:hover {
+      background-color: lighten($button-warning, 15%);
+    }
 }
